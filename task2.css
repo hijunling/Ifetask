@@ -1,0 +1,135 @@
+*{margin: 0;padding: 0;}
+body{
+	font-family: ;
+	background-color:#D8D6D6;
+	width: 100%;
+}
+
+/*头部样式*/
+header{
+	position: relative;
+	background-color: #030303;
+	width: 100%;
+	height: 50px;
+}
+h1 img{
+	float: left;
+	margin: 5px 0 5px 20px;
+}
+nav.list>ul{
+	display: inline-block;
+}
+nav ul{
+	padding: 15px 5px 15px 800px;
+}
+.list li{
+	display: block;
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+.list a{
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	padding: 6px 15px;
+}
+
+/*文章样式*/
+section {
+	margin:20px 15px;
+	
+}
+section p{
+	text-indent:2em;
+}
+section article.art1{
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 4px 4px #7E7D7D;
+	line-height: 30px;
+}
+section article.art2{
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 4px 4px #7E7D7D;
+	line-height: 30px;
+}
+article.art2 li{
+	list-style-type: none;
+	text-indent: 2em;
+}
+/*图片样式*/
+section#pic{
+	margin: 30px 35px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 4px 4px #7E7D7D;
+	line-height: 30px;
+}
+
+
+section#pic p img{
+	width: 200px;
+	height: 100px;
+}
+section#pic p{
+	border: solid 1px #A9A7A7 ;
+	padding: 10px;
+	width: 200px;
+	margin:20px;
+}
+/*最后一篇文章样式*/
+section#art3{
+	margin: 30px 35px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 4px 4px #7E7D7D;
+	line-height: 30px;
+}
+ol{
+	padding: 0 0 0 60px;
+	font-weight: bold;
+}
+table{
+  width: 100%;
+  margin: 0 auto;
+  border-color: #ccc;
+  border-collapse:collapse;
+}
+thead{
+  color: white;
+  background: #333;
+}
+tfoot{
+  background: #ccc;
+}
+/*侧栏样式*/
+aside{
+	margin: 30px 35px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 4px 4px #7E7D7D;
+	line-height: 30px;
+	
+}
+aside h2{
+	border-left: 2px solid #D1D0D0;
+	padding-left: 1em;
+}
+aside form{
+	text-align: center;
+}
+/*页脚部分*/
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #040404;
+}
+footer p{
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+}
