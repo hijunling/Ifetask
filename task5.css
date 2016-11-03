@@ -1,0 +1,147 @@
+*{margin:0;padding:0;}
+/*主体样式*/
+body{
+	font-family: helvetica,arial,sans-serif;
+	background-color: #DEDBDB;
+
+}
+#wrapper{
+	float: left;
+	width: 65%;
+	margin-righht:-20px;
+}
+
+/*导航栏样式*/
+header{
+	position: relative;/*为页面logo和导航提供 定位上下文*/
+	height: 80px;
+	background-color: #000;
+}
+/*logo样式*/
+.logo img{
+	position: absolute;
+	margin:10px 20px;
+}
+/*导航链接样式*/
+.menu{
+	margin:0 20px;
+	padding:0;
+	font-size: 1.1em;
+	float: right;
+
+}
+.menu  ul {
+	display: inline-block;
+	min-width: 450px;
+}
+.menu ul li{
+	float: left;
+	list-style-type: none;
+	height: 80px;
+}
+.menu li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 1.5em .5em;
+	-webkit-transition:all 0.3s linear;
+}
+.menu li a:hover{
+	color: #EDEB18;
+	-webkit-transition:all 0.2s linear;
+}
+/*主体设置样式*/
+section{
+	background-color: #fff;
+	margin:30px 25px;
+	padding:20px ;
+	box-shadow: 4px 4px  #aaa;
+	line-height: 2em;
+}
+p{
+	text-indent: 2em;
+}
+
+#second article li{
+	list-style-type: none;
+	text-indent: 2em;
+}
+#third{
+	
+	 overflow: hidden;
+}
+#third figure{
+	display: inline-block;
+	border:1px solid #7A7A7A;
+	width: 220px;
+	height: 150px;
+	text-align: center;
+	margin:10px;
+	float: left;
+
+}
+#third  img{
+	width: 200px;
+	height: 110px;
+}
+#four{
+	clear: both;
+}
+#four ol{
+	margin-left: 3em;
+	font-weight: 600;
+}
+table{
+  width: 100%;
+  margin: 0 auto;
+  border-color: #ccc;
+  border-collapse:collapse;
+}
+thead{
+  color: white;
+  background: #333;
+}
+tfoot{
+  background: #ccc;
+}
+
+#side{
+	display: block;
+	background-color: #fff;
+	margin:30px 25px 30px 5px;
+	padding:20px ;
+	box-shadow: 4px 4px  #aaa;
+	line-height: 2.5em;
+	width: 400px;
+	float: right;
+	text-indent: 2em;
+	font-size: .9em;
+
+}
+aside fieldset{
+	border: 0;
+}
+aside legend span{
+	border-left: 2px solid #908E8E;
+	padding-left: 1em;
+	font-size: 1.3em;
+	font-weight: 600;
+	margin-left: -2em;
+}
+input[type='submit']{
+  width: 350px;
+  height: 40px;
+  background: #3355D0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  border:1px solid #3355D0;
+  font-weight: 800
+}
+footer{
+	clear: both;
+	height: 60px;
+	text-align: center;
+	line-height: 70px;
+	background-color: #767676;
+}
